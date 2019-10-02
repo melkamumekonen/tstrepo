@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+    background-color: #E4F9F5;
+    /*border: solid 10px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;*/
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 0.8;
+    /*  all of these sizes are equivalent
+       font-size: 16px; - fixed
+       font-size: 562%; - dynamic , can be stacked by the parent element if font size specified there.
+       font-size : 1em ; - size of M - dynamic  ,can be stacked by the parent element if font size specified there.
+       font-size: 1rem ; - size of M - dynamic  ,relative to the root and ignore parent element font size declartion.
+    */
+
+
+    /* width: 10%;
+    margin: 0 auto;*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+.subtitle{
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto 60px auto;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+p{
+    line-height: 2;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.skill-image-web{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-image-bi{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.profile{
+    
+}
+.profile-desc{
+    color: #40514E;
+    display: inline-block;
+    width: 30%;
+}
+.top_profile{
+    position: absolute;
+    top: 50px;
+    left:200px;
+    width:50px;
+}
+
+hr {
+    border-top: 8px dotted #EAF6F6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 4%;
+    margin: 100px auto;
+  }
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.code-skill-desc{
+    /*clear : left;*/
+}
+
+.bi-skill-desc{
+    /*clear : right;*/
+
+}
+
+.profile{
+    margin-top: 50px;
+}
+.middle-container {
+    /*
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: solid 20px;
+    margin-left: 260px;*/
+}
+
+.bottom-container {
+
+    background-color: #66BFBF;
+    padding: 40px;
+    /* height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: solid 10px;
+    margin-left: 500px;*/
+}
+
+.footer-link{
+    color: #11999E;
+    text-decoration-line: none;
+    line-height: 2;
+    padding: 20px;
+}
